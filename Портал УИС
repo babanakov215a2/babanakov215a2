@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0134)http://my.nsu.ru/public/studentinfo.jsp;jsessionid=7168EDC9F22DC87B5F58B319E1F78525?public.group.ref=3227&public.studentinfo.ref=50846 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-cache">
+<title>РџРѕСЂС‚Р°Р» РЈРРЎ</title>
+<link rel="icon" type="image/x-icon" href="http://my.nsu.ru/public/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./РџРѕСЂС‚Р°Р» РЈРРЎ_files/style.css">
+
+
+<script type="text/javascript" src="./РџРѕСЂС‚Р°Р» РЈРРЎ_files/jquery.js"></script>
+<script type="text/javascript" src="./РџРѕСЂС‚Р°Р» РЈРРЎ_files/jquery-json.js"></script>
+<script type="text/javascript" src="./РџРѕСЂС‚Р°Р» РЈРРЎ_files/lib.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/public/js/dd_belatedpng.js"></script>
+<script>DD_belatedPNG.fix('.login form, .faculties, .illustration .uis');</script>
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="/public/css/ie.css">
+<![endif]-->
+
+<script type="text/javascript">
+    
+    
+    _NSTATE ={};
+    
+    function _NSS(data) {
+        if (window._NSTATE) {
+            if (data) {
+                for (var p in data) {
+                    window._NSTATE[p] = data[p];
+                }
+            }
+            _NSS_SAVE();
+        }
+    }
+    function _NSS_PURGE(prop) {
+        if (window._NSTATE) {
+            window._NSTATE[prop] = null;
+            delete window._NSTATE[prop];
+            _NSS_SAVE();
+        }
+    }
+    function _NSS_SAVE() {
+        if (window._NSTATE) {
+            $.ajax({
+                type: "POST",
+                url: "/set-json/stub.txt",
+                data: {_NSTATE: $.toJSON(window._NSTATE)},
+                success: function() {
+                    window.location.reload();
+                }
+            });
+
+        }
+    }
+    /*$(document).ready(function() {
+     $('a.personal').click(function() {
+     $('.login form').toggle();
+     return false;
+     });
+     })*/
+</script>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <div class="logo"><a href="http://www.nsu.ru/">
+            <img src="./РџРѕСЂС‚Р°Р» РЈРРЎ_files/logo.gif" width="169" height="115" alt="" border="0">
+        </a></div>
+        
+
+
+
+<div class="search">
+    <form action="http://my.nsu.ru/public/search.jsp" method="get">
+        <table width="100%">
+            <tbody><tr width="100%">
+                <td width="70%">
+                    <div class="inputWrapper">
+                        <input type="text" class="textInput" name="public.search.searchString" value="">
+                    </div>
+                </td>
+                <td align="center">
+                    <input type="submit" class="searchButton" value="">
+                </td>
+            </tr>
+        </tbody></table>
+        
+        <table class="searchOpts" width="80%">
+            <tbody><tr>
+                <td width="66%"></td>
+                <td>
+                    <table style="font: normal 11px/14px Arial, Helvetica, sans-serif;">
+                        <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="public.search.onlyStudents" style="margin-top:0; margin-bottom:0;" id="onlyStudents" onclick="document.getElementById(&#39;onlyTeachers&#39;).checked = false;">
+                            </td>
+                            <td>РўРѕР»СЊРєРѕ&nbsp;СЃС‚СѓРґРµРЅС‚С‹/РІС‹РїСѓСЃРєРЅРёРєРё</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="public.search.onlyTeachers" style="margin-top:0; margin-bottom:0;" id="onlyTeachers" onclick="document.getElementById(&#39;onlyStudents&#39;).checked = false;">
+                            </td>
+                            <td>РўРѕР»СЊРєРѕ&nbsp;РїСЂРµРїРѕРґР°РІР°С‚РµР»Рё</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody></table>
+    </form>
+    <div class="searchBottom">
+    </div>
+</div>
+        
+
+<div class="login" style="z-index:1000;">
+    <a href="http://my.nsu.ru/uisws" class="personal"><span>Р›РёС‡РЅС‹Р№ РєР°Р±РёРЅРµС‚</span></a>
+</div>
+
+
+
+    </div>
+    <a href="http://my.nsu.ru/">
+        <div class="illustration" style="background-image:url(/public/img/t_students_2.jpg)">
+            <div class="uis"></div>
+        </div>
+    </a>
+    <div class="content">
+        <div class="side">
+            
+
+
+
+
+
+
+<h3>РќРѕРІРѕСЃС‚Рё</h3>
+
+    
+        
+        
+            
+            <div><a href="http://my.nsu.ru/public/shownewsitem.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A?public.newscontent.action=show&public.newscontent.ref=506273d014ea48d1ebc419ba&public.newslist.ref=506273d014ea48d1ebc419ba">РћР±РЅРѕРІР»РµРЅРёСЏ РЅР° СЃР°Р№С‚Рµ</a></div>
+            <div class="newsDate">26 СЃРµРЅС‚СЏР±СЂСЏ 2012</div>
+        
+    
+
+    
+        
+        
+            
+            <div><a href="http://my.nsu.ru/public/shownewsitem.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A?public.newscontent.action=show&public.newscontent.ref=4f433076e3a74a6d0eb45e42&public.newslist.ref=4f433076e3a74a6d0eb45e42">Р Р°Р·РІРёС‚РёРµ СЃРёСЃС‚РµРјС‹ my.nsu.ru</a></div>
+            <div class="newsDate">21 С„РµРІСЂР°Р»СЏ 2012</div>
+        
+    
+
+    
+        
+        
+            
+            <div><a href="http://my.nsu.ru/public/shownewsitem.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A?public.newscontent.action=show&public.newscontent.ref=4c8f559977f7a7e3aa301e1f&public.newslist.ref=4c8f559977f7a7e3aa301e1f">РџСЂРµР·РµРЅС‚Р°С†РёСЏ РїРѕСЂС‚Р°Р»Р° В«РњРѕР№ СѓРЅРёРІРµСЂСЃРёС‚РµС‚В» 21 СЃРµРЅС‚СЏР±СЂСЏ 2010 Рі.</a></div>
+            <div class="newsDate">14 СЃРµРЅС‚СЏР±СЂСЏ 2010</div>
+        
+    
+
+    
+        
+        
+            
+            <div><a href="http://my.nsu.ru/public/shownewsitem.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A?public.newscontent.action=show&public.newscontent.ref=4c7ff2272138a7e32d062aae&public.newslist.ref=4c7ff2272138a7e32d062aae">Р—Р°РїСѓС‰РµРЅ РІ СЌРєСЃРїР»СѓР°С‚Р°С†РёСЋ РїРѕСЂС‚Р°Р» В«РњРѕР№ СѓРЅРёРІРµСЂСЃРёС‚РµС‚В»</a></div>
+            <div class="newsDate">02 СЃРµРЅС‚СЏР±СЂСЏ 2010</div>
+        
+    
+
+
+
+        </div>
+        <div class="article">
+            <div class="articleTop">
+            </div>
+            <div class="articleContent">
+                
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var fac_t;
+    $(document).ready(function() {
+        $('a.fac').hover(function() {
+            $('.faculties').show("fast");
+            return false;
+        });
+        $('div.faculties').hover(function() {
+        }, function() {
+            $(this).hide();
+        });
+    })
+</script>
+
+
+
+
+    
+    
+<div class="buttons buttonsInside">
+    
+
+
+    
+    
+        
+        
+        
+    <a href="http://my.nsu.ru/public/teachers.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A">
+        <strong>РџСЂРµРїРѕРґР°РІР°С‚РµР»Рё</strong>
+        
+    </a>
+        
+    
+
+    
+    
+        
+        
+    <a href="http://my.nsu.ru/public/students.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A?public.students.opendiff=201" class="active">
+        <strong>РЎС‚СѓРґРµРЅС‚С‹</strong>
+    </a>
+        
+        
+    
+
+    
+    
+        
+        
+        
+    <a href="http://my.nsu.ru/public/courses.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A">
+        <strong>РљСѓСЂСЃС‹</strong>
+        
+    </a>
+        
+    
+
+    
+    
+        
+        
+        
+    <a href="http://my.nsu.ru/public/alumni.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A" class="last">
+        <strong>Р’С‹РїСѓСЃРєРЅРёРєРё</strong>
+        
+    </a>
+        
+    
+</div>
+
+
+
+                
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+<div class="personInfo">
+    
+
+
+
+
+
+
+    
+    
+        <img src="./РџРѕСЂС‚Р°Р» РЈРРЎ_files/nophoto.png" alt="" class="photo">
+    
+
+
+<div class="info">
+    <h2>РўСЂРµРїР°Р»РёРЅР° Р”Р°СЂСЊСЏ РРІР°РЅРѕРІРЅР°</h2>
+
+    <br>
+
+    
+
+    
+        <p>
+            
+                cС‚СѓРґРµРЅС‚РєР°
+                РіСЂСѓРїРїС‹ <a href="http://my.nsu.ru/public/group.jsp?public.group.ref=3227">0501</a>,
+            
+            
+            Р“Р“Р¤, РіРµРѕС„РёР·РёРєР° (Р±Р°РєР°Р»Р°РІСЂРёР°С‚)
+            
+            
+        </p>
+    
+        <p>
+            
+                cС‚СѓРґРµРЅС‚РєР°
+                РіСЂСѓРїРїС‹ <a href="http://my.nsu.ru/public/group.jsp?public.group.ref=4702">12603</a>,
+            
+            
+            Р¤РРЇ, Р»РёРЅРіРІРёСЃС‚РёРєР°. РџРµСЂРµРІРѕРґ Рё РїРµСЂРµРІРѕРґРѕРІРµРґРµРЅРёРµ/С„СЂ (Р±Р°РєР°Р»Р°РІСЂРёР°С‚)
+           
+            
+        </p>
+    
+
+    
+</div>
+<div class="spacer"></div>
+
+
+
+<h3>РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</h3>
+
+<div class="spacer"></div>
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+</div>
+
+
+<a href="http://my.nsu.ru/public/favourites.jsp;jsessionid=D63D6A51F37C8A68A00BB364D1D4AB3A?public.favourites.type=student&public.favourites.id=50846" class="addFav">Р”РѕР±Р°РІРёС‚СЊ РІ РёР·Р±СЂР°РЅРЅРѕРµ</a>
+
+<div class="spacer"></div>
+                    
+                    
+                
+                <div class="spacer"></div>
+            </div>
+            <div class="articleBot">
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
+    
+<div class="footer">
+    <p>В© 2010 РЈРРЎ. <br>
+        &nbsp;&nbsp;&nbsp;РЈРЅРёРІРµСЂСЃРёС‚РµС‚СЃРєР°СЏ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅР°СЏ СЃРёСЃС‚РµРјР° <a href="http://my.nsu.ru/public/about.jsp">Рћ РїСЂРѕРµРєС‚Рµ</a></p>
+</div>
+
+</div>
+
+
+</body></html>
